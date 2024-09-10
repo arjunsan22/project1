@@ -1,0 +1,804 @@
+*{
+    text-decoration: none;
+
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}  
+nav.top{
+    height: 68px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+div.toplinks{
+  position: fixed;
+ top: 0;
+ overflow: hidden ;
+ margin-left: 49.5%;
+ padding-top: 14px;
+ 
+}
+nav a{
+    
+    color: rgb(0, 0, 0);
+    float: left;
+    display: block;
+  
+    padding: 15px;
+}
+
+img.logo{
+ position: absolute;
+ margin-top: 5px;
+ margin-left: 90px;
+    height: 45px;
+    width: 90px;
+    padding-top: 5px;
+    
+
+}
+.guest{
+  
+  height: 15px;
+  width: 15px;
+  margin-left: 86%;
+  margin-top: -15%;
+}
+
+img.flag{
+    height: 28px;
+    width: 28px;
+    margin-right: 1px;
+    margin-top: -6px;
+
+}
+a{
+        font-family: "Roboto Condensed", sans-serif;
+        
+        font-weight:500;
+        font-style: normal;
+          
+}
+img.search{
+
+    height: 23px;
+    width: 23px;
+    margin-right: 1px;
+    margin-top: -6px;
+  opacity:70%;
+
+}
+img.profile{
+
+    height: 23px;
+    width: 23px;
+    margin-right: 1px;
+    margin-top: -6px;
+opacity: 200%;    
+
+
+}
+
+
+div.banner{
+  background-image: url("images/zebra.avif");
+  height: 484px;
+  padding-top: 1px;
+  background-repeat: no-repeat;
+ background-size: cover;
+ text-align: justify;
+ 
+ font-family: "Roboto Condensed", sans-serif;
+ font-weight: 400;
+ font-style: normal; 
+}
+.booking{
+width:25%;
+background-color: rgb(252, 252, 252);
+
+}
+.booking a{
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  
+  padding-left: 90px;
+  font-size: medium;
+  font-weight: 450;
+  font-size: 17;
+}
+
+.box a:hover{
+  background-color: white;
+}
+a:hover{
+  color: black;
+}
+
+
+div.box{
+  margin-left: 8%;
+  margin-top: -11.2%;
+  border-radius: 22px;
+  padding-top: 12px;
+width: 620px;
+height: 320px;
+background-color: rgb(255, 255, 255);
+overflow: hidden;
+
+}
+ul{
+  margin: 0px;
+  padding-left: 0%;
+}
+ul {
+  list-style-type: none;
+  margin: -2%;
+  height: 60px;
+  overflow: hidden;
+   
+  background-color:#090979;
+}
+
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 46px;
+  text-decoration: none;
+  font-weight: 450;
+  font-size: 17;
+  
+}
+
+
+
+.section-one{
+  margin: 0%;
+}
+
+
+
+
+
+
+
+.sec1 a{
+  margin-top: 2%;
+  color: black;
+  
+  font-size: medium;
+  font-weight: 200;
+  
+}
+img.small-icons{
+
+  
+  height: 15px;
+  width: 18px;
+
+}
+ p.sec2{
+  
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: small;
+
+ }
+ #fieldset1, fieldset{
+  
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: small;
+  padding-top: 0px;
+ }
+
+
+fieldset{
+  border-radius: 5px;
+margin: 0px 49% 20px 50px;
+height: 46px;
+
+font-family: "Roboto Condensed", sans-serif;
+font-size: small;
+font-weight: 200;
+
+}
+
+.field2{
+  
+  border-radius: 5px;
+  margin-top: -10%;
+  margin-left: 52%;
+  margin-right: 7px;
+  height: 41px;
+  
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: small;
+  font-weight: 200;
+
+}
+#fieldset2{
+  
+  padding-top: 2px;
+}
+
+.field3{
+  
+  border-radius: 5px;
+ width: 22%;
+   height: 41px;
+  
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: small;
+  font-weight: 200;
+
+}
+
+
+.field4{
+  
+  border-radius: 5px;
+  margin-top: -10%;
+  margin-left: 31%;
+  margin-right: 49%;
+  height: 41px;
+  
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: small;
+  font-weight: 200;
+
+}
+.boxlink {
+
+  color: rgb(34, 103, 232);
+}
+
+#linkwithfield{
+margin-left: 60%;
+margin-top: -8%;
+}
+#linkbottom {
+margin-left: 50px;
+color: rgb(40, 158, 179);
+margin-top: 8%;
+font-size: large;
+font-weight: 300;
+}
+.boxlink2 {
+  font-weight: 300;
+
+  color: rgb(31, 173, 208);
+}
+
+#label{
+font-weight: 100;
+  font-size: medium;
+  margin-left: 35%;
+ margin-top: -7%;
+ 
+}
+
+.palace{
+  
+  height: 17px;
+  width: 17px;
+  margin-left: -18%;
+}
+
+input{
+  margin-left: 31%;
+  margin-top: -8.5%;
+height: 30px;
+width: 20px;
+}
+.box-button{
+height: 30px;
+width: 46.5%;
+margin-top: -10%;
+
+margin-left: 52%;
+border-radius: 5px;
+
+height: 41px;
+font-size: medium;
+font-weight: 600;
+color: white;
+background-color:#090979;
+}
+
+/*first three boxes*/
+
+.boxone{
+  height: 33%;
+  width: 27%;
+  background-image:url(images/pexels-mohamad-tamer-2406731.jpg) ;
+  
+  margin-left: 8%;
+  margin-top: 2.5%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+  
+}
+
+
+.boxtwo{
+  height: 33%;
+  width: 27%;
+  background-image: url(images/pexels-pixabay-460672.jpg);
+  margin-left: 37%;
+  margin-top: -18.2%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+  
+}
+
+
+.boxthree{
+  height: 33.2%;
+  width: 27%;
+  background-image: url(images/pexels-sahil-1868676.jpg);
+  margin-left: 66%;
+  
+  margin-top: -18.2%;
+  
+  margin-bottom: 2%;
+  border-radius: 15px;
+  
+}
+span.mumbai{
+  text-decoration: underline;
+
+}
+
+
+
+#boxtext{
+  padding-top: 2%;
+  padding-left: 8%;
+  
+  font-family: "Roboto Condensed", sans-serif;
+font-size:xx-large;
+font-weight: 550;
+word-spacing: 4px;
+}
+
+.secondlabel{
+  padding-left: 70%;
+word-spacing: 2px;
+font-size: medium;
+font-family:"Roboto Condensed", sans-serif;
+font-weight: 200;
+}
+
+/*box inside decoration*/
+
+button.secondbutton{
+height: 30px;
+width: 39%;
+margin-top: 2.5%;
+
+font-family:"Roboto Condensed", sans-serif;
+margin-left: 2.5%;
+border-radius: 5px;
+word-spacing: 6px;
+font-size: 14;
+font-weight: 200;
+color: black;
+background-color: rgb(255, 255, 255);
+}
+p.boxinsidetext{
+font-size: large;
+font-weight: 600;
+word-spacing: 5px;
+margin-top: 35%;
+font-family:"Roboto Condensed", sans-serif;
+
+color: white;
+
+}
+.buttonsee{
+  height: 36px;
+  width: 12%;
+  margin-left: 40%;
+}
+.but{
+  
+font-family:"Roboto Condensed", sans-serif;
+color: black;
+font-weight: 550;
+font-size: medium;
+word-spacing: 3px;
+  height: 41px;
+  width: 10%;
+  background-color: white;
+  margin-left: 44%;
+  border-radius: 8px;
+}
+
+
+
+/* section no3*/
+.thirdsection{
+  margin: 0%;
+}
+
+#trip{
+padding-top: 0%;
+text-align: center;
+
+font-family: "Roboto Condensed", sans-serif;
+font-size:42;
+font-weight: 480;
+word-spacing: 3px;
+}
+
+
+
+.sec2boxone{
+  height: 36%;
+  width: 28%;
+  background-image:url(images/airportsec2.jpg) ;
+  
+  margin-left: 8%;
+  margin-top: 2.5%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+  
+}
+
+
+.sec2boxtwo{
+  height: 36.1%;
+  width: 28%;
+  background-image: url(images/comfortplane.jpg);
+  margin-left: 37%;
+  margin-top: -19.6%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+  
+}
+
+
+.sec2boxthree{
+  height: 36.1%;
+  width: 28%;
+  background-image: url(images/lounge2.jpg);
+  margin-left: 66%;
+  
+  margin-top: -19.6%;
+  
+  margin-bottom: 2%;
+  border-radius: 15px;
+  
+}
+
+
+p.sec2boxinsidetext{
+  font-size:20;
+  font-weight: 700;
+  word-spacing: 4px;
+  padding-top: 46%;
+  font-family:"Roboto Condensed", sans-serif;
+  
+  color: white;
+  
+  }
+  .sec2span{
+    
+  font-family:"Roboto Condensed", sans-serif;
+  color: white;
+  font-weight: 450;
+  font-size: medium;
+  padding-left: 3%;
+  padding-top: 5%;
+
+
+  }
+  .sec2span:hover{
+    text-decoration: underline;
+  }
+
+
+  /*section 4*/
+.fivthsection{
+
+margin-top: 4%;
+  }
+  .sec4{
+
+    height: 64%;
+    background-color: #090979;
+    background-image: url(images/printscreen.png);
+    margin-left: 7.8%;
+    margin-right: 5.4%;
+    
+    
+    margin-bottom: 2.9%;
+    border-radius: 15px;
+      
+  
+  }
+
+
+
+/* blur box*/
+
+div.blurbox{
+  height: 42.9%;
+  width: 27%;  
+  margin-left: 72%;
+border-radius: 15px;
+  filter: blur(10px);
+}
+
+
+  h4.blur1{
+
+    
+    
+  font-family:"Roboto Condensed", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 37;
+  padding-left: 7%;
+  padding-top: 7%;
+  }
+.blur2{
+  
+  font-family:"Roboto Condensed", sans-serif;
+  color: white;
+  font-weight: 550;
+  font-size: x-large;
+margin-top: -8%;
+  padding-left: 7%;
+  word-spacing: 2px;
+}
+
+
+.blur3{
+font-family:"Roboto Condensed", sans-serif;
+color: white;
+font-weight: 500;
+font-size: 17;
+margin-top: -10px;
+padding-left: 7%;
+word-spacing: 2px;
+}
+/*second last*/
+
+.secondlast{
+
+  margin: 0%;
+}
+
+.sixthdiv{
+
+  height:34%;
+  background-image: url(images/tour1.jpg);
+  margin-left: 7.8%;
+  margin-right: 5.2%;
+  
+  
+  margin-bottom: 2.9%;
+  border-radius: 15px;  
+}
+
+div.sixthblur-div{
+background-color: white;
+  height:68%;
+  width: 64.2%;
+  margin-left:2.8% ;
+  opacity: 0.9;
+  
+
+
+}
+#lastboxtext{
+font-size: 25;
+font-weight: 600;
+padding-left: 2%;
+padding-top: 2%;
+word-spacing: 4%;
+color: black;
+font-family:"Roboto Condensed", sans-serif;
+}
+#lastboxpara{
+
+  font-size: 18;
+  font-weight: 200;
+  padding-left: 2%;
+  margin-top: -2.6%;
+  word-spacing: 4%;
+  color: black;
+  font-family:"Roboto Condensed", sans-serif;
+  }
+  .goat{
+
+    font-size: 18;
+    font-weight: 100;
+    padding-left: 2%;
+    word-spacing: 4%;
+    color: black;
+    font-family:"Roboto Condensed", sans-serif;
+    
+  }
+  .selbox{
+    margin-left: 4%;
+    padding-left: 2%;
+  font-size: 17;
+    width: 700;
+    height: 38;
+  }
+.last{
+  margin-top: 4%;
+}
+.lastbox{
+  
+  height: 49%;
+  background-color: #e8f3f3;
+  filter: blur(0.5);
+}
+
+.footerheading{
+padding-top: 2%;
+  font-size: 17.5;
+  font-weight: 500;
+  padding-left: 8%;
+  word-spacing: 4%;
+  color: black;
+  font-family:"Roboto Condensed", sans-serif;
+}
+
+.footerlinks a{
+  display:block;
+  padding-top: 6px;
+
+  font-size: 15.9;
+  font-weight: 200;
+  padding-left: 8%;
+  color: rgb(0, 0, 0);
+  font-family:"Roboto Condensed", sans-serif;
+}
+
+
+.footerlinkssecond {
+  margin-left: 32.4%;
+  margin-top: -13%;
+  
+
+}
+p.link2 a{
+  display: block;
+  padding-top: 6px;
+ 
+  font-size: 15.9;
+  font-weight: 200;
+  color: rgb(0, 0, 0);
+  font-family:"Roboto Condensed", sans-serif;
+}
+
+.footerlinksthird{
+
+  margin-left: 58%;
+  margin-top: -13%;
+
+}
+p.link3 a{
+  
+  display: block;
+  padding-top: 6px;
+ 
+  font-size: 15.9;
+  font-weight: 200;
+  color: rgb(0, 0, 0);
+  font-family:"Roboto Condensed", sans-serif;
+}
+.endfdiv{
+margin-top: -12%;
+}
+
+.endfoot{
+
+  font-size: 15.9;
+  font-weight: 200;
+  margin-left: 77.6%;
+  color: rgb(0, 0, 0);
+  font-family:"Roboto Condensed", sans-serif;
+}
+.footbutton{
+
+  height: 37px;
+  width: 7%;
+  margin-left: 77.6%;
+background-color: #ffffff;
+border-radius: 8px;
+}
+.footbutton:hover{
+  background-color: black;
+  color: white;
+
+
+}
+span.footbut:hover{
+  color: #ffffff;
+
+}
+
+.footbut{
+ 
+  font-family:"Roboto Condensed", sans-serif;
+  font-size: 16.9;
+  word-spacing: 6px;
+  font-weight: 600; 
+  padding: 1px;
+}
+.but:hover{
+  background-color: black;
+  color: white;
+
+}
+span.butno:hover{
+
+  font-family:"Roboto Condensed", sans-serif;
+  font-size: 16.9;
+  word-spacing: 6px;
+  font-weight: 600; 
+  padding: 1px;
+  color: #e8f3f3;
+}
+
+.blurbox1{
+  
+  height: 42.9%;
+  width: 27%;  
+  margin-left: 68%;
+  
+border-radius: 15px;
+
+position: relative;
+top: 18%;
+backdrop-filter: saturate(200%) blur(20px);
+
+}
+
+
+h4.blur10{
+
+    
+    
+  font-family:"Roboto Condensed", sans-serif;
+  color: white; 
+  font-weight: 500;
+  font-size: 37;
+  padding-left: 7%;
+  padding-top: 7%;
+  }
+.blur20{
+  
+  font-family:"Roboto Condensed", sans-serif;
+  color: white;
+  font-weight: 550;
+  font-size: x-large;
+margin-top: -8%;
+  padding-left: 7%;
+  word-spacing: 2px;
+}
+
+
+.blur30{
+  font-family:"Roboto Condensed", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 17;
+  margin-top: -10px;
+  padding-left: 7%;
+  word-spacing: 2px;
+  }
+  
+  
